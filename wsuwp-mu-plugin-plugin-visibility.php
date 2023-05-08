@@ -1,21 +1,18 @@
 <?php namespace WSUWP\Plugin\Plugin_Visibility;
 /**
- * Plugin Name: WSUWP Plugin MU |  Plugin Visibility
+ * Plugin Name: WSUWP MU Plugin |  Plugin Visibility
  * Description: Enables network administrators to control the visibility of plugins at the site level.
  * Version: 1.0.0
  * Requires PHP: 7.3
  * Author: Washington State University, Dan White
  * Author URI: https://web.wsu.edu/
- * Text Domain: wsuwp-plugin-mu-plugin-visibility
+ * Text Domain: wsuwp-mu-plugin-plugin-visibility
  */
 
 class Plugin_Visibility
 {
     protected static $option_name = 'wsu_plugin_visibility_settings';
-    protected static $default_hidden = array(
-        'wsuwp-plugin-exhibits/wsuwp-plugin-exhibits.php',
-        'wsuwp-plugin-logo-generator/wsuwp-plugin-logo-generator.php'
-    );
+    protected static $default_hidden = array();
 
 
     public static function add_settings_page()
