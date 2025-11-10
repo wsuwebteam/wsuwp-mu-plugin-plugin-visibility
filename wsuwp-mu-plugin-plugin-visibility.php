@@ -251,6 +251,10 @@ class Plugin_Visibility
 
     public static function filter_plugins($plugins)
     {        
+
+        if(is_super_admin()) {
+            return $plugins;
+        }
         
         $plugins = array_filter(
             $plugins, function ($k) use ($plugins) {                
