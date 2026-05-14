@@ -88,6 +88,7 @@ class Plugin_Visibility
         "wsuwp-plugin-newsletter/wsuwp-plugin-newsletter.php",
         "wsuwp-plugin-people-api/wsuwp-plugin-people-api.php",
         "wsuwp-plugin-people-datastore/wsuwp-plugin-people-datastore.php",
+        "wsuwp-plugin-wsupress-longleaf/wsuwp-plugin-wsupress-longleaf.php",
         "wsuwp-plugin-pods/init.php",
         "wsuwp-plugin-public-pending/wsuwp-plugin-public-pending.php",
         "wsuwp-plugin-woocommerce-wa-tax-data/wsuwp-plugin-woocommerce-wa-tax-data.php",
